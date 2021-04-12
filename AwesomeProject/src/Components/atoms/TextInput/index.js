@@ -1,19 +1,12 @@
 import React from 'react'
 import { StyleSheet, Text, View, TextInput as Input } from 'react-native'
 
-const TextInput = () => {
+const TextInput = ({label, placeholder}) => {
     return (
         <View>
-    <Text style={styles.labelInput}>Name</Text>
-    <Input style={styles.input}placeholder="Masukan nama lengkap anda"/>
+    <Text style={styles.labelInput}>{label}</Text>
+    <Input style={styles.input}placeholder={placeholder}/>
     <Text style={styles.labelInput}>Username</Text>
-    <Input style={styles.input}placeholder="Masukan Username anda"/>
-    <Text style={styles.labelInput}>Email</Text>
-    <Input style={styles.input}placeholder="Masukan email anda"/>
-    <Text style={styles.labelInput}>Address</Text>
-    <Input style={styles.input}placeholder="Masukan alamat anda"/>  
-    <Text style={styles.labelInput}>Phone Number</Text>
-    <Input style={styles.input}placeholder="Masukan nomor telepon anda"/>  
         </View>
     )
 }

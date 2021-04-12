@@ -1,11 +1,11 @@
 import React from 'react'
 import { StyleSheet, Text, View, TouchableOpacity} from 'react-native'
 
-const index = () => {
+const index = ({label}) => {
     return (
         <View>
             <TouchableOpacity style={styles.button}>
-        <Text style={styles.labelButton}>Register</Text>
+        <Text style={styles.labelButton}>{label}</Text>
         </TouchableOpacity>
         </View>
     )
