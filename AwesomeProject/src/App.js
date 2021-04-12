@@ -1,5 +1,5 @@
 import React from 'react';
-import Login from './Components/pages/Login';
+import Register from './Components/pages/Register';
 import UserList from './Components/pages/UserList';
 
 const App = () =>{
