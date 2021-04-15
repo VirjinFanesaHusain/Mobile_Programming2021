@@ -1,5 +1,5 @@
-import React from 'react'
-import { StyleSheet, Text, View, TextInput as Input } from 'react-native'
+import React from 'react';
+import { StyleSheet, Text, View, TextInput as Input } from 'react-native';
 
 const TextInput = ({label, placeholder}) => {
     return (
@@ -16,7 +16,6 @@ export default TextInput;
 const styles = StyleSheet.create({
     labelInput: {
         fontSize: 14,
-        marginTop: 20,
     },
     input: {
         borderWidth: 1,
@@ -26,4 +25,4 @@ const styles = StyleSheet.create({
         paddingVertical: 15,
         marginTop: 5,
     },
-})
+});

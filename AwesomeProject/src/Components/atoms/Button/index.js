@@ -1,17 +1,15 @@
-import React from 'react'
-import { StyleSheet, Text, View, TouchableOpacity} from 'react-native'
+import React from 'react';
+import { StyleSheet, Text, TouchableOpacity} from 'react-native';
 
 const index = ({label}) => {
     return (
-        <View>
             <TouchableOpacity style={styles.button}>
         <Text style={styles.labelButton}>{label}</Text>
         </TouchableOpacity>
-        </View>
     )
 }
 
-export default index
+export default index;
 
 const styles = StyleSheet.create({
     button: {
@@ -25,5 +23,5 @@ const styles = StyleSheet.create({
         fontSize: 18,
         color: 'white',
         fontWeight: '500',
-    }
-})
+    },
+});

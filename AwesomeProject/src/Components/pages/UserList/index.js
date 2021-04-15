@@ -3,7 +3,7 @@ import {StyleSheet, Text, View, ScrollView} from 'react-native';
 import Card from '../../molecules/Card';
 import Axios from 'axios';
 
-const HomeScreen = () => {
+const UserList = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
@@ -37,7 +37,7 @@ const HomeScreen = () => {
   );
 };
 
-export default HomeScreen;
+export default UserList;
 
 const styles = StyleSheet.create({
   container: {
