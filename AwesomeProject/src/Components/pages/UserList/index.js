@@ -24,7 +24,6 @@ const handleSubmit = () => {
         email: 'Virjinfanesa@gmail.com',
         first_name: 'Virjin',
         last_name: 'Fanesa',
-        avatar: 'https://reqres.in/img/faces/7-image.jpg',
   };
   Axios.post('http://localhost:8081/users', data)
 };
@@ -34,7 +33,7 @@ const handleSubmit = () => {
       <Text style={styles.title}>Users List</Text>
 
       <ScrollView showsVerticalScrollIndicator={false}>
-        <Button label="Tambah" onSubmit={handleSubmit}/>
+        <Button label="Save" onSubmit={handleSubmit}/>
         {users.map(item => 
           <Card
           key={item.id}
