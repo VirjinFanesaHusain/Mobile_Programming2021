@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity} from 'react-native';
 
-const index = ({label}) => {
+const index = ({label, onSubmit}) => {
     return (
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity onPress={onSubmit} style={styles.button}>
         <Text style={styles.labelButton}>{label}</Text>
         </TouchableOpacity>
     )

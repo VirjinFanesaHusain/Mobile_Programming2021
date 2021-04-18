@@ -7,6 +7,7 @@ import Button from '../../atoms/Button';
 const UserList = () => {
   const [users, setUsers] = useState([]);
 
+  
   useEffect(() => {
     //Fetch
     // fetch('https://reqres.in/api/users')
@@ -16,7 +17,8 @@ const UserList = () => {
     //Axios
     Axios
     .get('http://10.0.2.2:3004/users')
-    .then((res) => setUsers(res.data));
+    .then(res => setUsers(res.data),
+    );
   }, [users]);
 
 const handleSubmit = () => {
