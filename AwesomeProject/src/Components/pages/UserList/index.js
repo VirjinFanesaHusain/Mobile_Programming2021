@@ -15,7 +15,7 @@ const UserList = () => {
     
     //Axios
     Axios
-    .get('http://localhost:8081/users')
+    .get('http://10.0.2.2:3004/users')
     .then((res) => setUsers(res.data));
   }, [users]);
 
@@ -25,7 +25,7 @@ const handleSubmit = () => {
         first_name: 'Virjin',
         last_name: 'Fanesa',
   };
-  Axios.post('http://localhost:8081/users', data)
+  Axios.post('http://10.02.2:3004/users', data)
 };
 
   return (
