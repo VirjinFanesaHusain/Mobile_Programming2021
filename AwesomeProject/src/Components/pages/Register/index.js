@@ -21,7 +21,7 @@ const App = () =>{
     <Gap height={48} />
     <Button label="Register" />
     </View>
-    )
+    );
 };
 
 const styles = StyleSheet.create({
@@ -31,9 +31,8 @@ const styles = StyleSheet.create({
     },
     title: {
         fontSize: 36,
-        fontWeight: '500',
+        fontWeight: '700',
     },
-    
 });
 export default App;
    
