@@ -1,5 +1,5 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native'
+import React, {useEffect} from 'react';
+import { StyleSheet, Text, View } from 'react-native';
 import {Logo} from '../../assets';
 
 const SplashScreen = ({navigation}) => {
@@ -11,7 +11,7 @@ const SplashScreen = ({navigation}) => {
     return (
         <View style={styles.page}>
             <Logo />
-            <Text style={styles.text}>Splash Screen</Text>
+            <Text style={styles.text}>Money Tracker</Text>
         </View>
     );
 };
