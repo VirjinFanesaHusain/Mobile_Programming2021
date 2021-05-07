@@ -4,4 +4,5 @@ import Promo from './Promo';
 import FormatPrint from './FormatPrint';
 import TentangKami from './TentangKami';
 
+
 export {HomeUser, Profile, Promo, FormatPrint, TentangKami};

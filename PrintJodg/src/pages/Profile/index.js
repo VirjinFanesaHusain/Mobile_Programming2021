@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     pertama: {
         paddingHorizontal: 24,
         flex: 1,
-        backgroundColor: '#F5E0BF',
+
     },
     text: {
         fontFamily: 'Roboto-Regular',

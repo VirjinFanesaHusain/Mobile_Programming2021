@@ -1,13 +1,14 @@
 import React from 'react'
 import { StyleSheet, Text, View, TouchableOpacity} from 'react-native'
 
-const FormatPrint = ({onPress}) => {
+const FormatPrint = ({onPress, navigation}) => {
     return (
-            <TouchableOpacity onPress={onPress}>
-              <View>
-          <Text style={styles.promo}>FORMAT PRINT</Text>   
-        </View>
+        <View>
+                   <TouchableOpacity onPress={onPress}>
+                   <Text style={styles.promo}>FORMAT PRINT</Text>
+
         </TouchableOpacity>
+        </View>
     );
 };
 

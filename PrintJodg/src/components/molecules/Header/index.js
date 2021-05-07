@@ -13,6 +13,8 @@ const Header = ({title, title2, title3}) => {
             />
             <Text style={styles.input2}>{title3}</Text>
         </View>
+
+        
         
     );
 };
