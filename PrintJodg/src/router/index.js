@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import {createStackNavigator} from '@react-navigation/stack';
-import {Profile, HomeUser, Promo, FormatPrint} from '../pages';
+import {Profile, HomeUser, Promo, FormatPrint, TentangKami} from '../pages';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { NavigationContainer } from '@react-navigation/native';
 Icon.loadFont()
@@ -37,6 +37,7 @@ const Stack = createStackNavigator();
     <Stack.Navigator>
       <Stack.Screen name="FormatPrint" component={FormatPrint} />
       <Stack.Screen name="Promo" component={Promo} />
+      <Stack.Screen name="TentangKami" component={TentangKami} />
     </Stack.Navigator>
   </NavigationContainer>
 
